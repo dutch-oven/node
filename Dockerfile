@@ -7,7 +7,7 @@ RUN apk update && apk upgrade && apk add npm nodejs jq
 ENV NODE_ENV production
 
 COPY package*.json /app/
-RUN npm install
+RUN npm ci
 
 COPY . /app/
 
