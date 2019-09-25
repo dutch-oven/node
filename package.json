@@ -1,0 +1,14 @@
+{
+  "name": "@dutchoven/node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/start"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "esm": "^3.2.25",
+    "knex": "^0.16.3",
+    "winston": "^3.2.1"
+  }
+}
